@@ -60,7 +60,7 @@ body {
     justify-content: center;
   }
   .nav-header {
-    height: 8rem;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +69,7 @@ body {
   .sticky {
     box-shadow: $black 0px 0px 8px 0px;
     max-width: 100vw;
-    height: 4.5rem;
+    height: 5rem;
     top: 0px;
     position: sticky;
     z-index: 110;
@@ -147,7 +147,8 @@ body {
 }
 
 .icon {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  margin-right: 5px;
   color: $green;
 }
 .nav-icons {
