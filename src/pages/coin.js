@@ -22,9 +22,10 @@ const Coin = () => {
     return (
         <div>
             <div className='coin-container'>
-                <div className='content'>
+                {/* <div className='content'>
                     <h1>{coin.name}</h1>
-                </div>
+                </div> */}
+                <div className='title'></div>
                 <div className='content'>
                     <div className='rank'>
                         <span className='rank-btn'>Rank # {coin.market_cap_rank}</span>
@@ -51,7 +52,7 @@ const Coin = () => {
                                 <th>7d</th>
                                 <th>14d</th>
                                 <th>30d</th>
-                                <th>1yr</th>
+                                {/* <th>1yr</th> */}
                             </tr>
                         </thead>
                         <tbody>
@@ -61,7 +62,7 @@ const Coin = () => {
                                 <td>{coin.market_data?.price_change_percentage_24h_in_currency ? <p>{coin.market_data.price_change_percentage_7d_in_currency.usd.toFixed(1)}%</p> : null}</td>
                                 <td>{coin.market_data?.price_change_percentage_24h_in_currency ? <p>{coin.market_data.price_change_percentage_14d_in_currency.usd.toFixed(1)}%</p> : null}</td>
                                 <td>{coin.market_data?.price_change_percentage_24h_in_currency ? <p>{coin.market_data.price_change_percentage_30d_in_currency.usd.toFixed(1)}%</p> : null}</td>
-                                <td>{coin.market_data?.price_change_percentage_24h_in_currency ? <p>{coin.market_data.price_change_percentage_1y_in_currency.usd.toFixed(1)}%</p> : null}</td>
+                                {/* <td>{coin.market_data?.price_change_percentage_24h_in_currency ? <p>{coin.market_data.price_change_percentage_1y_in_currency.usd.toFixed(1)}%</p> : null}</td> */}
 
                             </tr>
                         </tbody>

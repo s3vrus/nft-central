@@ -6,6 +6,7 @@ import Coin from '../pages/coin';
 const Coins = (props) => {
   return (
     <div className='container'>
+        <h1 className='title'>NFT Coin Information</h1>
         <div>
             <div className='heading'>
                 <p>Global Rank #</p>

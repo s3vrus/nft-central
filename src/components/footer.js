@@ -5,7 +5,7 @@ const Footer = () => {
     <div className='container'>
         <div className='footer'>
             <div>
-                <p>Created by Collin Osborne</p>
+                <p></p>
             </div>
         </div>
     </div>
